@@ -10,16 +10,14 @@ class RouterURL extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/skills" component={Skills} />
-            <Route path="/qualification" component={Qualification} />
-            <Route path="/contact" component={Contact} />
-            <Route component={Home} />
-          </Switch>
-        </div>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/qualification" component={Qualification} />
+          <Route path="/contact" component={Contact} />
+          <Route component={Home} />
+        </Switch>
       </Router>
     );
   }

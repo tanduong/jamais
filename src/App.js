@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 import AppRouter from './router/router';
-import Header from './components/header';
+import Header from './components/Header';
 
 class App extends Component {
   render() {

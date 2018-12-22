@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import {Route, Switch} from 'react-router-dom';
-import Home from '../components/Home';
-import About from '../components/another/about';
-import Skills from '../components/another/skills';
-import Qualification from '../components/another/qualification';
-import Contact from '../components/another/contact';
+import Home from '../components/pages/Home';
+import About from '../components/pages/About';
+import Skills from '../components/pages/Skills';
+import Qualification from '../components/pages/Qualification';
+import Contact from '../components/pages/Contact';
 
 class AppRouter extends Component {
   render() {

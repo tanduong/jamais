@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from '../components/unies';
+import {Route, Switch} from 'react-router-dom';
+import Home from '../components/Home';
 import About from '../components/another/about';
 import Skills from '../components/another/skills';
 import Qualification from '../components/another/qualification';

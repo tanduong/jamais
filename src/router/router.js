@@ -9,16 +9,14 @@ import Contact from '../components/another/contact';
 class AppRouter extends Component {
   render() {
     return (
-      <Router>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/qualification" component={Qualification} />
-          <Route path="/contact" component={Contact} />
-          <Route component={Home} />
-        </Switch>
-      </Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/qualification" component={Qualification} />
+        <Route path="/contact" component={Contact} />
+        <Route component={Home} />
+      </Switch>
     );
   }
 }

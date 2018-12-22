@@ -1,12 +1,16 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
 import AppRouter from './router/router';
+import Header from './components/header';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <AppRouter />
+        <Fragment>
+          <Header />
+          <AppRouter />
+        </Fragment>
       </Router>
     );
   }

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import styles from './main.module.css';
 import {NavLink} from 'react-router-dom';
 
@@ -25,17 +25,6 @@ class Header extends Component {
                 <NavLink to="/contact">CONTACT</NavLink>
               </li>
             </ul>
-          </div>
-        </div>
-
-        <div className={styles.profile}>
-          <div className={styles.home}>
-            <img
-              alt="avatar"
-              src="https://upload.wikimedia.org/wikipedia/en/e/ee/Unknown-person.gif"
-            />
-            <h1>Trương Nghĩa</h1>
-            <h2>Developer</h2>
           </div>
         </div>
       </div>

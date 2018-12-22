@@ -3,7 +3,7 @@ import Main from './main';
 import Footer from './footer';
 import {Intro} from './Intro';
 
-class Unies extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -15,4 +15,4 @@ class Unies extends Component {
   }
 }
 
-export default Unies;
+export default Home;

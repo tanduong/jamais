@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './main.module.css';
+import styles from './Intro.module.css';
 export const Intro = ({name, title}) => (
   <div className={styles.profile}>
     <div className={styles.home}>

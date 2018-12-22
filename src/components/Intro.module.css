@@ -1,0 +1,13 @@
+.profile {
+  width: 100%;
+  background: url(https://lh3.googleusercontent.com/PcHjj8zzq7I9QfM6Bsmir1_meyg5arQ8C85d0nlQ3kzzSONkNHHwRTtwraQZTYzEUZCd=w2247-h1264)
+    fixed 100% no-repeat;
+  background-size: cover;
+  padding: 159.5px 0px 100px 0px;
+  text-align: center;
+}
+
+.home {
+  width: 100%;
+  text-transform: uppercase;
+}

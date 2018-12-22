@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import styles from './main.module.css';
 
 class Main extends Component {
@@ -36,23 +36,16 @@ class Main extends Component {
             <div className={styles.title}>
               <h2>Skills</h2>
             </div>
+
             <div className={styles.bardiv}>
-              <h3>HTML</h3>
-              <div className={styles.progressbar}>
-                <span className={styles.html} />
-              </div>
-              <h3>CSS</h3>
-              <div className={styles.progressbar}>
-                <span className={styles.css} />
-              </div>
-              <h3>JavaScript</h3>
-              <div className={styles.progressbar}>
-                <span className={styles.javascript} />
-              </div>
-              <h3>C++</h3>
-              <div className={styles.progressbar}>
-                <span className={styles.cplus} />
-              </div>
+              {this.props.skills.map(({name, progress}) => (
+                <Fragment>
+                  <h3>{name}</h3>
+                  <div className={styles.progressbar}>
+                    <span style={{width: `${progress}%`}} />
+                  </div>
+                </Fragment>
+              ))}
             </div>
           </div>
         </div>

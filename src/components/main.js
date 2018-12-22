@@ -39,7 +39,7 @@ class Main extends Component {
 
             <div className={styles.bardiv}>
               {this.props.skills.map(({name, progress}) => (
-                <Fragment>
+                <Fragment key={name}>
                   <h3>{name}</h3>
                   <div className={styles.progressbar}>
                     <span style={{width: `${progress}%`}} />
